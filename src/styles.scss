@@ -1,0 +1,42 @@
+/* theme color */
+$--color-primary: #67C23A;
+$--color-text-primary: #A70A4B;
+$--color-text-regular: #A70A4B;
+$--color-text-secondary: #A70A4B;
+$--font-size-base:13px;
+
+.dialog{
+    float: right;
+}
+
+.el-button, span.el-tag, input.el-input__inner, div.cell, button, span{
+    height: 36px;
+
+}
+div, span, span.el-tag{
+    font-size:13px;
+}
+
+.el-row{
+    position: absolute;
+    width:200px;
+    display: inline-block;
+}
+
+.button{float: right;}
+
+#router-view{
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#app {
+    font-size:13px;
+    width:100%;  
+}
+
+/* icon font path, required */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";

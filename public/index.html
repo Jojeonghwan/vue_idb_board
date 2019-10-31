@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>board</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but board doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script>
+      class boardData{
+        name=String;
+        title=String;
+        comment=String;
+        gender=String;
+        date=String;
+
+        constructor(id='',name='',title='',comment='',gender='',date=''){
+        this.id = id;
+        this.name = name;
+        this.title = title;
+        this.comment = comment;
+        this.gender = gender;
+        this.date = date;
+        }
+      }
+      class notifyForm{
+        constructor(title,message){
+          this.title=title,
+          this.message=message
+        }
+      }
+    </script>
+  </body>
+</html>
+
